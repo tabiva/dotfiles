@@ -1,0 +1,15 @@
+bpytop/
+colorls/
+alacritty/
+iterm2/
+karabiner/
+neofetch/
+flutter/
+lvim/
+yarn/
+sonic-pi.net/
+kitty/
+plugin/
+prova.py
+.DS_Store
+starship.toml
