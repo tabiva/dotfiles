@@ -1,6 +1,5 @@
 bpytop/
 colorls/
-alacritty/
 iterm2/
 karabiner/
 neofetch/
@@ -9,7 +8,7 @@ lvim/
 yarn/
 sonic-pi.net/
 kitty/
-plugin/
+plugins/
 prova.py
 .DS_Store
 starship.toml
