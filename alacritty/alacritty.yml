@@ -751,6 +751,7 @@ key_bindings:
   - { key: Caret,       mods: Alt,            chars: "\x60"              }
   - { key: Key5,        mods: Alt,            chars: "\x7E"              }
   - { key: Key3,        mods: Alt,            chars: "#"                 }
+  - { key: Key2,        mods: Alt,            chars: "@"                 }
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
