@@ -1,4 +1,4 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator.
+# configuration for Alacritty, the GPU enhanced terminal emulator.
 
 # Import additional configuration files
 #
@@ -46,8 +46,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
  padding:
-    x: 20
-    y: 0
+    x: 10
+    y: 5
 
  # Spread additional padding evenly around the terminal content.
  dynamic_padding: true
@@ -67,7 +67,8 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
- opacity: 0.3
+ # opacity: 0.3
+ background_opacity: 0.3
 
   # Startup Mode (changes require restart)
   #
@@ -442,7 +443,7 @@ bell:
 #working_directory: None
 
 # Send ESC (\x1b) before characters when alt is pressed.
-alt_send_esc: true
+alt_send_esc: false
 
 # Offer IPC using `alacritty msg` (unix only)
 #ipc_socket: true
@@ -752,6 +753,8 @@ key_bindings:
   - { key: Key5,        mods: Alt,            chars: "\x7E"              }
   - { key: Key3,        mods: Alt,            chars: "#"                 }
   - { key: Key2,        mods: Alt,            chars: "@"                 }
+
+  # - { key: Key2,        mods: Alt,            chars: "@"                 }
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }

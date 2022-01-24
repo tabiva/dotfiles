@@ -12,3 +12,6 @@ plugins/
 prova.py
 .DS_Store
 starship.toml
+
+zsh/..zsh_history
+zsh/.zcompdump
