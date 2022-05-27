@@ -59,5 +59,5 @@ vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
 --
 -- vim.cmd([[let g:gruvbox_sign_column = 'bg0']])
-vim.cmd([[colorscheme gruvbox-baby]])
+-- vim.cmd([[colorscheme gruvbox-baby]])
 -- vim.cmd([[colorscheme onedarker]])
