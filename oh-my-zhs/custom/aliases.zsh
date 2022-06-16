@@ -1,8 +1,8 @@
 
 alias ll="colorls -alGh --gs"
 alias l="colorls -1"
-# alias python="python3"
-alias python=/usr/local/bin/python3
+alias python="python3"
+# alias python=/usr/local/bin/python3
 alias pip="pip3"
 alias wo="cd ~/Workspace"
 alias flutter="/Users/ivan/Workspace/flutter/bin/flutter"
