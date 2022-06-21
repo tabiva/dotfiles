@@ -16,3 +16,4 @@ starship.toml
 zsh/..zsh_history
 zsh/.zcompdump
 nvim/plugin/packer_compiled.lua
+dooit

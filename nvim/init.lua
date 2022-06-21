@@ -20,8 +20,9 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
+require "user.dap"
 
 -- vim.cmd([[let g:gruvbox_sign_column = 'bg0']])
 -- vim.cmd([[colorscheme onedarker]])
 vim.cmd([[colorscheme gruvbox-baby]])
-
+vim.cmd([[set colorcolumn=79]])

@@ -98,6 +98,13 @@ return packer.startup(function(use)
 
   --  -- Git
     use "lewis6991/gitsigns.nvim"
+    --
+    -- debugging
+    use 'mfussenegger/nvim-dap'
+    use 'mfussenegger/nvim-dap-python'
+    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+    use 'theHamsta/nvim-dap-virtual-text'
+    use 'nvim-telescope/telescope-dap.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
