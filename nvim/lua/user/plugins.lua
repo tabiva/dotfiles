@@ -64,6 +64,7 @@ return packer.startup(function(use)
   -- Colorschemes
     use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
     use "lunarvim/darkplus.nvim"
+    use "rebelot/kanagawa.nvim"
     -- use 'ellisonleao/gruvbox.nvim'
     use 'gruvbox-community/gruvbox'
     use 'luisiacc/gruvbox-baby'
@@ -108,6 +109,27 @@ return packer.startup(function(use)
     use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
     use 'theHamsta/nvim-dap-virtual-text'
     use 'nvim-telescope/telescope-dap.nvim'
+    use "Pocco81/DAPInstall.nvim"
+    use { "jbyuki/one-small-step-for-vimkind", module = "osv" }
+    --- Debugging
+-- use {
+--   "mfussenegger/nvim-dap",
+--   opt = true,
+--   event = "BufReadPre",
+--   module = { "dap" },
+--   wants = { "nvim-dap-virtual-text", "DAPInstall.nvim", "nvim-dap-ui", "nvim-dap-python", "which-key.nvim" },
+--   requires = {
+--     "Pocco81/DAPInstall.nvim",
+--     "theHamsta/nvim-dap-virtual-text",
+--     "rcarriga/nvim-dap-ui",
+--     "mfussenegger/nvim-dap-python",
+--     "nvim-telescope/telescope-dap.nvim",
+--     { "jbyuki/one-small-step-for-vimkind", module = "osv" },
+--   },
+--   config = function()
+--     require("config.dap").setup()
+--   end,
+-- }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
