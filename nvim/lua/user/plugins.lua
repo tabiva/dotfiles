@@ -103,6 +103,10 @@ return packer.startup(function(use)
   --  -- Git
     use "lewis6991/gitsigns.nvim"
     --
+    use {
+    'wthollingsworth/pomodoro.nvim',
+    requires = 'MunifTanjim/nui.nvim'
+    }
     -- debugging
     use 'mfussenegger/nvim-dap'
     use 'mfussenegger/nvim-dap-python'
